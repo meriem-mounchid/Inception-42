@@ -46,3 +46,16 @@ A Dockerfile must be written for each extra service. Thus, each one of them will
 - Set up Adminer.
 -  Set up a service of your choice that you think is useful. During the defense, you will have to justify your choice.
 * You may open more ports to suit your needs.
+
+### Pre-instalation:
+I'm using Ubuntu server on my VM, to connect it via SSH and to use the Makefile
+
+Install:
+- `apt-get update` 
+- `apt-get install -y make openssh-server`
+
+### How To run it:
+Use Makefile:
+- To install: `make install`
+- To build: `make build`
+- To clean: `make clean`
